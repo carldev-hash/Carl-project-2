@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* write your CSS here */
+
+:root {
+    --pri: #1E1E1E;
+    --sec: #E9DCFF;
+    --tri: #2B2D3D;
+    --white: #FFFFFF;
+}
+body {
+    background-color: var(--pri);
+    font-family: "Poppins", sans-serif;
+    color: var(--white);
+    height: 100vh;
+}
+.logo a {
+    font-size: 32px;
+    color: var(--white);
+}
+.wrapper {
+    padding: 64px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+nav ul li a {
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 6000;
+}
+.buttons {
+    display: flex;
+    gap: 16px;
+}
+
+.buttons button {
+    width: 132px;
+    height: 54px;
+    border-radius: 10px;
+    font-weight: 800;
+    font-size: 20px;
+    background-color: var(--sec)
+}
+
+.home {
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;;
+    /* background-color: red; */
+    height: 80vh;
+}
+
+.content {
+    width: 542px;
+    height: 294px;
+    /* background-color: blue */
+}
+
+.content .head {
+    letter-spacing: 22%;
+    font-size: 18px;
+    font-weight: 500;
+}
+.content .middle {
+    font-size: 55px;
+    font-weight: 600;
+    letter-spacing: 2%;
+}
+.imgs {
+    height: 682px;
+    width: 522px;
+}
+.imgs img{
+    height: 100%;
+    width: 100%;
+}
+
+.content button {
+    width: 188px;
+    height: 66px;
+    background-color:var(--sec);
+    font-size: 24px;
+    border-radius: 10px;
+    font-weight: 700;
+}
